@@ -1,0 +1,43 @@
+<Case>
+    <Action name="Place">
+        <Object name="bottle"/>
+        <Target name="table"/>
+        <Components>
+            <MP type="Approach" object="bottle"/>
+            <MP type="Gripper" action="close"/>
+            <MP type="Translate" distance="10" direction="y"/>
+            <MP type="Above" object="table"/>
+            <MP type="Gripper" action="open"/>
+        </Components>
+        <PreConditions>
+            <Condition type="IsGripperEmpty" value="true"/>
+            <Condition type="IsApproach" object="bottle" value="true"/>
+        </PreConditions>
+        <PostConditions>
+            <Condition type="IsOn" object="bottle" target="table" value="true"/>
+        </PostConditions>
+    </Action>
+</Case>
+
+<Case>
+    <Action name="Flip">
+        <Object name="bottle"/>
+        <Components>
+            <MP type="Approach" object="bottle"/>
+            <MP type="Gripper" action="close"/>
+            <MP type="Translate" distance="10" direction="y"/>
+            <MP type="Rotate" distance="180" direction="z"/
+            <MP type="Translate" distance="-10" direction="y"/>
+            <MP type="Gripper" action="open"/>
+        </Components>
+        <PreConditions>
+            <Condition type="IsGripperEmpty" value="true"/>
+            <Condition type="IsApproach" object="bottle" value="true"/>
+        </PreConditions>
+        <PostConditions>
+            <Condition type="IsUpright" object="bottle" value="true"/>
+        </PostConditions>
+    </Action>
+</Case>
+
+

@@ -1,0 +1,11 @@
+You need to design the action knowledge for robot.
+There are some available conditions can be Pre-condition and Post-condition of an action:
+IsGripperEmpty, IsApproach(object), IsOpened(object), IsOn(object,table)
+The variables in brackets are parameters.
+You can create conditional predicates to make reasonable requests if necessary.
+
+The demonstration examples are showed in Database.xml
+The manipulation primitives are showed in MPs.xml
+
+Only generate the same format as in the case without explanation.
+

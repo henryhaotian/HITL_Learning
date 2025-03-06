@@ -1,0 +1,59 @@
+<MPs>
+    <MP>
+        <type>Approach</type>
+        <Parameter>
+            <Param>object</Param>
+        </Parameter>
+        <Description>Control the manipulator to approach the object.</Description>
+    </MP>
+    
+    <MP>
+        <type>Gripper</type>
+        <Parameter>
+            <Param>open</Param>
+        </Parameter>
+        <Description>Open the end gripper of the manipulator.</Description>
+    </MP>
+
+    <MP>
+        <type>Gripper</type>
+        <Parameter>
+            <Param>close</Param>
+        </Parameter>
+        <Description>Close the end gripper of the manipulator.</Description>
+    </MP>
+
+    <MP>
+        <type>Rotate</type>
+        <Parameter>
+            <Param>degree</Param>
+            <Description>The degree to rotate.</Description>
+        </Parameter>
+        <Parameter>
+            <Param>axis</Param>
+            <Description>The axis (x/y/z) to rotate along.</Description>
+        </Parameter>
+        <Description>Rotate along x/y/z axis of the end gripper.</Description>
+    </MP>
+    
+    <MP>
+        <type>Translate</type>
+        <Parameter>
+            <Param>distance</Param>
+            <Description>The distance to translate.</Description>
+        </Parameter>
+        <Parameter>
+            <Param>axis</Param>
+            <Description>The axis (x/y/z) to translate along.</Description>
+        </Parameter>
+        <Description>Translate along x/y/z axis of the end gripper.</Description>
+    </MP>
+    
+    <MP>
+        <type>Above</type>
+        <Parameter>
+            <Param>object</Param>
+        </Parameter>
+        <Description>Control the manipulator to move above the object.</Description>
+    </MP>
+</MPs>

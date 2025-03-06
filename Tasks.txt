@@ -1,0 +1,26 @@
+Insert:
+Please design the Action of Insert(container, groove) to insert the container into the groove.
+
+Stack:
+Please design the Action of Stack(block1, block2, block3) to stack the blocks.
+
+PressButton:
+Please design the Action of Press(button) to press the button.
+
+BoxOut:
+Please design the Action of BoxOut(box, bottle, table) to take the bottle out of the storage box and place it on the table.
+
+OpenDrawer:
+Please design the Action of OpenDrawer(drawer, drawer_handle) to open the drawer.
+
+Upright:
+Please design the Action of Upright(bottle) to place the lying bottle upright.
+
+Build:
+Please design the Action of Build(block1, block2, triangle) to construct a building with a triangle top.
+
+Unscrew:
+Please design the Action of Unscrew(bottle, bottle_cap) to unscrew the cap of the bottle.
+
+
+
